@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aroma Mocha cofee shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="body">
+
+    <header class="header-div">
+        <div class="logo-div">
+            <img class="logo-img" src="images/logo.jpg" alt="">  
+        </div>
+        <div class="logoname-div"> <div class="anime-tittle">Aroma Mocha</div></div>
+        <div class="empty-div"></div>
+        <div class="navlinks-div">
+            <ul>
+                <a href="#"><li class="currentpage">Home</li></a>
+                <a href="#"><li>Special offers</li></a>
+                <a href="#"><li>Contact</li></a>
+                <a href="#"><li>About Us</li></a>
+             </ul>
+        </div>
+       
+    </header>
+    <main>
+        <div class="cofee-banner-div" >
+            <div class="cofee-phargraph-div" id="banner-text"><P>We provide the best cofee on earth</P></div> 
+            <div class="button-ajdustment">
+                <div class="empty-div1"></div>
+                <div class="shop-now-button-div"><a class="shop-now-link" href="#cofee-price"><button class="Shop-Now-button">Shop Now</button></a></div> 
+                <div class="empty-div1"></div>
+            </div>
+           
+            <div>
+                
+               
+            </div>
+    
+    
+            
+    
+    
+            <div class="new-info-grid">
+                
+               
+    
+    
+                <div class="special-offer-cofee-img-div" onclick="openpopup()"> <img class="coffee-img" src="images/green-coffee.jpg" alt="">
+                   
+                    <div class="special-offer-text" >GROUND COFFEE<br>special offer 50% off </div>
+                
+                </div>
+    
+                <div class="special-offer-cofee-img-div" onclick="openpopup()"> <img class="coffee-img" src="images/roasted-cofee.jpg" alt="">
+                    <div class="special-offer-text" >Win a ROASTED BEANS pack</div>
+                
+                </div>
+    
+                
+                
+    
+                
+    
+    
+    
+    
+            </div>
+        
+        
+        
+        
+    
+            
+    
+        </div>
+    
+        <div id="cofee-price">
+            <table >
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+        
+                <tr>
+                    <td>SMOOTH CAFE</td>
+                    <td>A rich and exotic coffee made from carefully
+                         selected pure coffee beans. This medium roast coffee has 
+                         a rich soft flavour for a smooth and well-rounded experience.  </td>
+                    <td>40$</td>
+                </tr>
+        
+                <tr>
+                    <td>CEYLON ESPRESSO</td>
+                    <td>   A rich full bodied darker roast coffee made from a
+                         selection of 100% pure Arabica beans. It is a coffee that fully
+                          rounds off a special evening meal and ideal for those
+                           who desire to indulge in the finer things in life.   </td>
+                    <td>100$</td>
+                </tr>
+        
+                <tr>
+                    <td>GREEN COFFEE</td>
+                    <td> World's most popular weight loss supplement, produced from unroasted 
+                        “Arabica” green coffee beans. It has higher level of “chlorogenic acid
+                         which is known to have antioxidant health benefits
+                          for the heart disease and weight loss. </td>
+                    <td>200$</td>
+                </tr>
+        
+        
+                <tr>
+                    <td>ROASTED BEANS</td>
+                    <td>  If you've never had freshly ground coffee,
+                         you may not even realize there is a difference. 
+                         But if you buy whole beans, and then grind them up
+                          minutes before you brew up your pot of coffee, the 
+                          flavor is much stronger and the subtle tastes of your
+                           specific type of bean are more noticeable.  </td>
+                    <td>250$</td>
+                </tr>
+        
+                <tr>
+                    <td>GROUND COFFEE</td>
+                    <td>  But what about the person who prefers convenience over
+                         flavor? Obviously, ground coffee is the next best thing! 
+                         Keep in mind that when you buy ground coffee you may be 
+                         sacrificing a little flavor but you’re saving yourself valuable time.
+                    </td>
+                    <td>300$</td>
+                </tr>
+        
+        
+                
+        
+        
+            </table>
+        
+        </div>
+
+        
+        <div class="popup" id="popup">
+            <div class="popup-email-us">
+                <div class="Get-a-free-sample-text">we're gonna Email you a link for this special offer</div>
+                <div class="get-free-stuff-form">
+                    <input class="popup-email-box" type="textbox" placeholder="Your Email">
+                    <button class="popup-email-send-button">
+                    <img  class="popup-send-message-img"  src="images/icons/send-message-black.PNG" alt="">
+                </button>
+                </div>
+                <div class="popup-close-button-div">
+                    <button class="popup-close-button" onclick="closepopup()">Not Now</button>
+                </div>
+                
+            </div>
+            
+
+
+        </div>
+        
+    </main>
+    
+
+
+    <script>
+       
+
+        function openpopup(){
+            popup.style.visibility="visible";   
+            popup.style.transform= "scale(1)";
+            body.style.overflow= "hidden";    
+        }
+
+        function closepopup(){
+            popup.style.visibility="hidden";   
+            popup.style.transform= "scale(.1)";    
+        }
+    </script>
+
+
+
+    
+
+    <footer>
+        <a href="#banner-text">
+            <img class="go-up-icon" src="images/icons/go-up.png" alt="">
+        </a>
+        <div class="footer-content">
+            <div class="footer-email-us">
+                <div>Get a free sample</div>
+                <div class="get-free-stuff-form">
+                    <input class="footer-email-box" type="textbox" placeholder="Your Email">
+                    <button  class="footer-email-send-button" >
+                    <img  class="footer-send-message-img"  src="images/icons/send-message.png" alt="">
+                </button> 
+                </div>
+                
+            </div>
+            
+            
+    
+            <div class="footer-socials">
+                <div>socials</div>
+                <a href="https://www.youtube.com/@aromamocha9205/videos" target="_blank">
+                    <div class="footer-social-icons">
+                        <img src="images/icons/youtube-icon.png" alt="">
+                        <div>Youtube</div>
+                    </div>
+                </a>
+                    
+                
+                <a href="https://web.facebook.com/aRomaMochaCafeBridgetown/?_rdc=1&_rdr" target="_blank">
+                    <div class="footer-social-icons">
+                        <div><img src="images/icons/Facebook-icon.png" alt=""></div>
+                        <div>Facebook</div>
+                    </div>
+                </a>
+                
+                <a href="https://www.tiktok.com/en" target="_blank">
+                    <div class="footer-social-icons">
+                        <div><img src="images/icons/tiktok-icon.png" alt=""></div>
+                        <div>Tiktok</div>
+                    </div>
+                </a>    
+                
+                <a href="https://aromamochaom.blogspot.com/"target="_blank">
+                    <div class="footer-social-icons"> 
+                        
+                            <img src="images/icons/bloger-icon.png" alt="">
+                            <div>Blog</div>
+                        
+                        
+                      </div>
+                </a>
+            
+    
+            </div>
+            
+        </div>
+        
+        
+
+
+
+    </footer>
+
+
+
+
+    
+    
+
+</body>
+</html>

@@ -1,0 +1,475 @@
+
+body{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 101px;
+   
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+ul{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+   
+
+}
+li{
+   
+    
+    padding-left: 30px;
+    cursor: pointer;
+}
+.currentpage{
+    text-decoration: underline overline gray;
+    text-align: center;
+   
+
+}
+
+.header-div{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    
+    z-index: 10;
+    
+   
+}
+.logo-div{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    display: flex;
+    flex-shrink: 0;
+   
+}
+.empty-div{
+    flex: 200px;
+}
+
+.logoname-div{
+    
+    padding: 50px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    
+}
+
+.navlinks-div{
+ 
+   flex: 3;
+   display: flex;
+   align-items: center;
+   flex-shrink: 0;
+}
+
+.logo-img{
+    width: 100%;
+    height: 100%;
+    
+}   
+
+.cofee-banner-div{
+    height: 550px;
+    background-image: url(images/gunawan.jpg);
+    background-size: cover;
+}
+
+.cofee-phargraph-div{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.Shop-Now-button{
+    background-color: #ee954c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    width: 152px;
+    font-weight: bold;
+    outline: none;
+}
+.Shop-Now-button:hover{
+    background-color: #671901;
+    border: 1px solid black;
+}
+.button-ajdustment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.empty-div1{
+    flex: 1;
+}
+
+.special-offer-cofee-img-div{
+    
+    margin-top: 30px;
+    position: relative;
+    cursor:pointer;
+    border: 1px solid white;
+    margin:10px;
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    
+   
+    
+}
+
+.special-offer-text{
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    background-color: #F5E8E4; 
+    padding: 8px 15px;
+    color:rgb(2, 0, 0);
+    font-weight: bold;
+    border-radius: 0px;
+    white-space: nowrap;
+}
+
+.special-offer-cofee-img-div:hover{
+    border: 3px solid #f0842c;
+
+}
+
+
+.coffee-img{
+    width: 100%;
+    height: 100%;
+}
+.special-offer-banner-div2{
+    border: 1px solid white;
+}
+.special-offer-text-button-div{
+    
+    width: 250px;
+    height: 250px;
+    
+}
+
+.special-offer-text-div{
+    font-size: 50px;
+    color: #ee954c;
+    padding: 20px;
+    white-space: nowrap;
+}
+.special-offer-button-div{
+    padding-left: 20px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+}
+
+
+.special-ofer-give-me-button{
+    background-color: #ee954c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 140px;
+}
+.special-offer-banner-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+
+}
+.empty-div2{
+    flex: 1;
+}
+
+.new-info-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+    
+
+}
+
+
+table, th, td {
+    border: 1px solid rgb(202, 202, 202);
+    
+  }
+
+table {
+    border-collapse: collapse;
+    margin: 50px auto;
+    width: 75%;
+  }
+td {
+    text-align: center;
+  }
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid rgb(202, 202, 202);
+  }
+tr:hover {
+    background-color: rgba(255, 127, 80, 0.226);}
+
+.go-up-icon{
+    position: absolute;
+    top: -60px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    z-index:555;
+    border-radius: 0;
+    border: 1px solid rgba(0, 0, 0, 0.474);
+    cursor: pointer;
+    
+}
+
+footer{
+    background-color: rgb(20, 17, 17);
+    
+    color: white;
+    padding: 30px;
+    position: relative;
+    
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+footer img{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+   
+    
+}
+
+.footer-social-icons{
+    display: flex;
+    
+    align-items: center;
+    margin-top: 8px;
+    color: white;
+    cursor: pointer;
+}
+.footer-email-box,
+.popup-email-box{
+    padding: 10px 20px;
+    width: 240px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border-width: 0 0 1px 0;
+    outline: none;
+
+    
+}
+.footer-email-send-button,
+.popup-email-send-button{
+    padding: 2px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    outline: none;
+    cursor: pointer;
+}
+.get-free-stuff-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+
+}
+.footer-send-message-img,
+.popup-send-message-img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+a:visited {
+    text-decoration: none;
+
+  }
+
+  
+a:hover {
+    text-decoration: underline;
+  }
+.shop-now-link:hover{
+    
+    text-decoration: none;
+}
+
+@media (max-width:840px) {
+    .cofee-banner-div{
+        height: 590px;
+    }
+}
+
+
+@media  (max-width:670px) {
+    .new-info-grid{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+       
+      
+    }
+    .special-offer-cofee-img-div{
+        margin-top: 20px;
+    } 
+    .cofee-banner-div{
+        height: 930px;
+    }
+    .cofee-phargraph-div{
+        padding: 10px 5px;
+    }
+    .table {
+        border-collapse: collapse;
+        
+        width: 100%;
+
+      }
+    .logoname-div{
+       
+        display: none;
+        padding:0;
+        font-size: 0;
+        margin: 0;
+    
+            
+    }
+    
+}
+.anime-tittle{
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+   
+    
+}
+@keyframes example {
+    0%   {color: rgb(67, 5, 5);; }
+    25%  {color: rgb(255, 255, 255); }
+    75%  {}
+    100% {  }
+  
+    
+  }
+
+
+.popup{
+    background-color: rgba(0, 0, 0, 0.619);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9;
+    visibility: hidden;
+    transform: scale(0.1);
+    
+
+    
+}
+
+.open-popup{
+    visibility:visible ;
+    transform: scale(1);
+}
+.popup-email-us{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+    border-radius: 40px;
+    
+}
+.popup-email-box{
+   color: black;
+   font-size: 20px;
+  
+}
+.Get-a-free-sample-text{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.popup-email-send-button{
+    right: 10px;
+}
+
+.popup-close-button{
+    padding: 10px 15px;
+    background-color: #fb943f;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.popup-close-button:hover{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #671901;
+}
+.popup-close-button-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
